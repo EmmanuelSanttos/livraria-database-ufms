@@ -1,0 +1,141 @@
+# ========================================
+# GIT IGNORE - Sistema de Banco de Dados para Livraria
+# Arquivos e diretórios a serem ignorados pelo Git
+# ========================================
+
+# ----------------------------------------
+# Arquivos de banco de dados binários
+# ----------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.frm
+*.ibd
+*.MYD
+*.MYI
+
+# ----------------------------------------
+# Arquivos de backup
+# ----------------------------------------
+*.bak
+*.backup
+*.old
+Backup*/
+backup/
+
+# ----------------------------------------
+# Arquivos de configuração local/sensíveis
+# ----------------------------------------
+config.local.sql
+connection_strings.txt
+credentials.sql
+.env
+.env.local
+.env.production
+.env.development
+database.ini
+
+# ----------------------------------------
+# Logs e arquivos temporários
+# ----------------------------------------
+*.log
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+*~
+
+# ----------------------------------------
+# Dumps e exportações
+# ----------------------------------------
+*.sql.gz
+*.dump
+exports/
+dumps/
+
+# ----------------------------------------
+# Arquivos específicos do sistema operacional
+# ----------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+
+# ----------------------------------------
+# IDEs e editores
+# ----------------------------------------
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, DataGrip, etc.)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ----------------------------------------
+# Ferramentas de banco de dados
+# ----------------------------------------
+# MySQL Workbench
+*.mwb.bak
+*.mwb.beforefix
+
+# DBeaver
+.dbeaver/
+
+# pgAdmin
+pgadmin*.db
+
+# ----------------------------------------
+# Diretórios de dados locais
+# ----------------------------------------
+data/
+test_data/
+local/
+
+# ----------------------------------------
+# Node modules (se houver integração com aplicações)
+# ----------------------------------------
+node_modules/
+npm-debug.log*
+
+# ----------------------------------------
+# Python (se houver scripts de migração)
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# ----------------------------------------
+# Arquivos de teste
+# ----------------------------------------
+test_results/
+coverage/
