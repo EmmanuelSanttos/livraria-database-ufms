@@ -131,7 +131,7 @@ O schema foi projetado seguindo as formas normais:
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/SEUUSUARIO/livraria-database-ufms.git
+   git clone https://github.com/EmmanuelSanttos/livraria-database-ufms.git
    cd livraria-database-ufms
    ```
 
